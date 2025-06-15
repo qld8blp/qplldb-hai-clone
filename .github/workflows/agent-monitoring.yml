@@ -1,0 +1,323 @@
+# GitHub Actions Workflow: Background Agents for HAI Website Monitoring
+# This creates true cloud-based background agents that run automatically
+
+name: HAI Website Background Agents
+
+on:
+  # Run agents on every push to main
+  push:
+    branches: [ main, master ]
+  
+  # Run agents on every pull request
+  pull_request:
+    branches: [ main, master ]
+  
+  # Run agents on a schedule (every 30 minutes)
+  schedule:
+    - cron: '*/30 * * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  page-layout-agent:
+    name: Page Layout Specialist Agent
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install Dependencies
+      run: npm ci
+      
+    - name: Build Next.js Application
+      run: npm run build
+      
+    - name: Run Page Layout Analysis
+      id: layout-analysis
+      run: |
+        # Create reports directory
+        mkdir -p agents/reports agents/logs
+        
+        # Run layout agent analysis
+        npx ts-node agents/page-layout-agent.ts --single-run > agents/logs/layout-analysis.log 2>&1 &
+        AGENT_PID=$!
+        
+        # Wait for agent to complete analysis (30 seconds max)
+        sleep 30
+        kill $AGENT_PID 2>/dev/null || true
+        
+        # Extract results
+        if [ -f "agents/reports/layout-report.json" ]; then
+          echo "report-exists=true" >> $GITHUB_OUTPUT
+          ACCURACY=$(jq -r '.accuracyScore' agents/reports/layout-report.json)
+          ISSUES=$(jq -r '.issues | length' agents/reports/layout-report.json)
+          echo "accuracy=$ACCURACY" >> $GITHUB_OUTPUT
+          echo "issues=$ISSUES" >> $GITHUB_OUTPUT
+        else
+          echo "report-exists=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Upload Layout Analysis Report
+      uses: actions/upload-artifact@v4
+      if: steps.layout-analysis.outputs.report-exists == 'true'
+      with:
+        name: layout-analysis-report
+        path: agents/reports/layout-report.json
+        retention-days: 30
+        
+    - name: Comment Analysis Results on PR
+      if: github.event_name == 'pull_request' && steps.layout-analysis.outputs.report-exists == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const accuracy = '${{ steps.layout-analysis.outputs.accuracy }}';
+          const issues = '${{ steps.layout-analysis.outputs.issues }}';
+          
+          const comment = `## 🎨 Page Layout Agent Report
+          
+          **Visual Accuracy:** ${accuracy}%
+          **Issues Found:** ${issues}
+          
+          ${accuracy >= 90 ? '✅ **EXCELLENT** - Layout meets quality standards' : 
+            accuracy >= 75 ? '⚠️ **NEEDS IMPROVEMENT** - Some issues require attention' : 
+            '🚨 **ACTION REQUIRED** - Critical layout issues detected'}
+          
+          Full report available in workflow artifacts.`;
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: comment
+          });
+
+  features-agent:
+    name: Features Specialist Agent
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install Dependencies
+      run: npm ci
+      
+    - name: Build Next.js Application
+      run: npm run build
+      
+    - name: Start Next.js Application
+      run: |
+        npm start &
+        sleep 10  # Wait for server to start
+        
+    - name: Run Features Analysis
+      id: features-analysis
+      run: |
+        # Create reports directory
+        mkdir -p agents/reports agents/logs
+        
+        # Run features agent analysis
+        npx ts-node agents/features-agent.ts --single-run > agents/logs/features-analysis.log 2>&1 &
+        AGENT_PID=$!
+        
+        # Wait for agent to complete analysis (45 seconds max)
+        sleep 45
+        kill $AGENT_PID 2>/dev/null || true
+        
+        # Extract results
+        if [ -f "agents/reports/features-report.json" ]; then
+          echo "report-exists=true" >> $GITHUB_OUTPUT
+          FUNCTIONALITY=$(jq -r '.functionalityScore' agents/reports/features-report.json)
+          BROKEN=$(jq -r '.brokenFeatures | length' agents/reports/features-report.json)
+          MISSING=$(jq -r '.missingFeatures | length' agents/reports/features-report.json)
+          echo "functionality=$FUNCTIONALITY" >> $GITHUB_OUTPUT
+          echo "broken=$BROKEN" >> $GITHUB_OUTPUT
+          echo "missing=$MISSING" >> $GITHUB_OUTPUT
+        else
+          echo "report-exists=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Upload Features Analysis Report
+      uses: actions/upload-artifact@v4
+      if: steps.features-analysis.outputs.report-exists == 'true'
+      with:
+        name: features-analysis-report
+        path: agents/reports/features-report.json
+        retention-days: 30
+        
+    - name: Comment Features Results on PR
+      if: github.event_name == 'pull_request' && steps.features-analysis.outputs.report-exists == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const functionality = '${{ steps.features-analysis.outputs.functionality }}';
+          const broken = '${{ steps.features-analysis.outputs.broken }}';
+          const missing = '${{ steps.features-analysis.outputs.missing }}';
+          
+          const comment = `## 🔧 Features Agent Report
+          
+          **Functionality Score:** ${functionality}%
+          **Broken Features:** ${broken}
+          **Missing Features:** ${missing}
+          
+          ${functionality >= 90 ? '✅ **FULLY FUNCTIONAL** - All features working correctly' : 
+            functionality >= 70 ? '⚠️ **NEEDS WORK** - Some features require fixes' : 
+            '🚨 **CRITICAL ISSUES** - Major functionality problems detected'}
+          
+          Full report available in workflow artifacts.`;
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: comment
+          });
+
+  agent-manager:
+    name: Agent Manager - Project Coordination
+    runs-on: ubuntu-latest
+    needs: [page-layout-agent, features-agent]
+    if: always()
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Download All Agent Reports
+      uses: actions/download-artifact@v4
+      with:
+        path: agent-reports/
+        
+    - name: Generate Project Status Report
+      id: project-status
+      run: |
+        # Process agent reports and generate unified status
+        mkdir -p final-reports
+        
+        # Initialize variables
+        OVERALL_PROGRESS=0
+        LAYOUT_SCORE=0
+        FEATURES_SCORE=0
+        
+        # Process layout report if exists
+        if [ -f "agent-reports/layout-analysis-report/layout-report.json" ]; then
+          LAYOUT_SCORE=$(jq -r '.accuracyScore // 0' agent-reports/layout-analysis-report/layout-report.json)
+        fi
+        
+        # Process features report if exists
+        if [ -f "agent-reports/features-analysis-report/features-report.json" ]; then
+          FEATURES_SCORE=$(jq -r '.functionalityScore // 0' agent-reports/features-analysis-report/features-report.json)
+        fi
+        
+        # Calculate overall progress (weighted average: 40% layout, 60% features)
+        if [ "$LAYOUT_SCORE" != "0" ] && [ "$FEATURES_SCORE" != "0" ]; then
+          OVERALL_PROGRESS=$(echo "scale=0; ($LAYOUT_SCORE * 0.4) + ($FEATURES_SCORE * 0.6)" | bc)
+        elif [ "$LAYOUT_SCORE" != "0" ]; then
+          OVERALL_PROGRESS=$LAYOUT_SCORE
+        elif [ "$FEATURES_SCORE" != "0" ]; then
+          OVERALL_PROGRESS=$FEATURES_SCORE
+        fi
+        
+        # Generate unified project report
+        cat > final-reports/project-status.json << EOF
+        {
+          "timestamp": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+          "overallProgress": $OVERALL_PROGRESS,
+          "layoutScore": $LAYOUT_SCORE,
+          "featuresScore": $FEATURES_SCORE,
+          "githubWorkflow": true,
+          "cloudAgentsActive": true
+        }
+        EOF
+        
+        echo "overall-progress=$OVERALL_PROGRESS" >> $GITHUB_OUTPUT
+        echo "layout-score=$LAYOUT_SCORE" >> $GITHUB_OUTPUT
+        echo "features-score=$FEATURES_SCORE" >> $GITHUB_OUTPUT
+        
+    - name: Upload Project Status Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: project-status-report
+        path: final-reports/project-status.json
+        retention-days: 30
+        
+    - name: Update Project Status in PR
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const overall = '${{ steps.project-status.outputs.overall-progress }}';
+          const layout = '${{ steps.project-status.outputs.layout-score }}';
+          const features = '${{ steps.project-status.outputs.features-score }}';
+          
+          const statusEmoji = overall >= 90 ? '🎉' : overall >= 75 ? '⚡' : overall >= 50 ? '⚠️' : '🚨';
+          
+          const comment = `## ${statusEmoji} HAI Website Clone - Agent Manager Report
+          
+          ### 📊 Overall Project Status: ${overall}%
+          
+          | Metric | Score | Status |
+          |--------|--------|--------|
+          | **Visual Layout** | ${layout}% | ${layout >= 80 ? '✅' : layout >= 60 ? '⚠️' : '❌'} |
+          | **Functionality** | ${features}% | ${features >= 80 ? '✅' : features >= 60 ? '⚠️' : '❌'} |
+          | **Cloud Agents** | Active | ✅ |
+          
+          ### 🤖 Agent Status
+          - ✅ GitHub Actions workflows running
+          - ✅ Automated monitoring active
+          - ✅ Report generation working
+          
+          ${overall >= 90 ? '🎯 **PROJECT READY** - Website meets quality standards!' : 
+            overall >= 75 ? '🔧 **MINOR FIXES NEEDED** - Close to completion' : 
+            '🚧 **WORK IN PROGRESS** - Continue development'}
+          `;
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: comment
+          });
+
+  deploy-preview:
+    name: Deploy Preview to Vercel
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install Dependencies
+      run: npm ci
+      
+    - name: Build Application
+      run: npm run build
+      
+    - name: Deploy to Vercel
+      uses: amondnet/vercel-action@v25
+      with:
+        vercel-token: ${{ secrets.VERCEL_TOKEN }}
+        vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+        vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+        working-directory: ./

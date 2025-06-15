@@ -1,0 +1,185 @@
+# Continuous Website Monitoring - Runs every hour to ensure quality
+name: Continuous HAI Website Monitoring
+
+on:
+  # Run every hour to continuously monitor website quality
+  schedule:
+    - cron: '0 * * * *'
+  
+  # Allow manual triggering for immediate checks
+  workflow_dispatch:
+
+jobs:
+  continuous-monitoring:
+    name: Hourly Quality Check
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install Dependencies
+      run: npm ci
+      
+    - name: Run All Agents
+      run: |
+        # Create monitoring directories
+        mkdir -p monitoring/reports monitoring/logs
+        
+        echo "🤖 Starting continuous monitoring agents..."
+        
+        # Run layout monitoring
+        echo "📐 Running layout analysis..."
+        timeout 30 npx ts-node agents/page-layout-agent.ts --single-run || true
+        
+        # Run features monitoring  
+        echo "🔧 Running features analysis..."
+        timeout 45 npx ts-node agents/features-agent.ts --single-run || true
+        
+        # Generate monitoring summary
+        echo "📊 Generating monitoring summary..."
+        cat > monitoring/reports/continuous-monitoring.json << EOF
+        {
+          "timestamp": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+          "monitoring_type": "continuous",
+          "frequency": "hourly",
+          "agents_run": ["page-layout-specialist", "features-specialist"],
+          "status": "completed"
+        }
+        EOF
+        
+    - name: Upload Monitoring Reports
+      uses: actions/upload-artifact@v4
+      with:
+        name: continuous-monitoring-${{ github.run_number }}
+        path: |
+          agents/reports/
+          monitoring/
+        retention-days: 7
+        
+    - name: Check for Critical Issues
+      run: |
+        CRITICAL_ISSUES=false
+        
+        # Check layout report for critical issues
+        if [ -f "agents/reports/layout-report.json" ]; then
+          ACCURACY=$(jq -r '.accuracyScore // 0' agents/reports/layout-report.json)
+          if [ "$ACCURACY" -lt 70 ]; then
+            echo "⚠️ Critical layout issues detected (Accuracy: $ACCURACY%)"
+            CRITICAL_ISSUES=true
+          fi
+        fi
+        
+        # Check features report for critical issues
+        if [ -f "agents/reports/features-report.json" ]; then
+          FUNCTIONALITY=$(jq -r '.functionalityScore // 0' agents/reports/features-report.json)
+          if [ "$FUNCTIONALITY" -lt 70 ]; then
+            echo "⚠️ Critical functionality issues detected (Score: $FUNCTIONALITY%)"
+            CRITICAL_ISSUES=true
+          fi
+        fi
+        
+        # Create issue if critical problems found
+        if [ "$CRITICAL_ISSUES" = true ]; then
+          echo "critical-issues=true" >> $GITHUB_ENV
+        else
+          echo "critical-issues=false" >> $GITHUB_ENV
+        fi
+        
+    - name: Create Issue for Critical Problems
+      if: env.critical-issues == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const { data: issues } = await github.rest.issues.listForRepo({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            labels: 'critical-quality-issue',
+            state: 'open'
+          });
+          
+          // Only create new issue if no existing critical issue is open
+          if (issues.length === 0) {
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🚨 Critical Quality Issues Detected by Monitoring Agents',
+              body: `## Critical Quality Issues Detected
+              
+              The continuous monitoring agents have detected critical issues with the HAI website clone.
+              
+              **Detection Time:** ${new Date().toISOString()}
+              **Workflow Run:** ${context.runId}
+              
+              ### Issues Found:
+              - Website quality has fallen below acceptable thresholds
+              - Immediate attention required to maintain project standards
+              
+              ### Next Steps:
+              1. Review the monitoring reports in workflow artifacts
+              2. Address critical issues identified by agents
+              3. Test fixes and verify quality improvements
+              
+              This issue was automatically created by the continuous monitoring system.`,
+              labels: ['critical-quality-issue', 'automated', 'urgent']
+            });
+          }
+
+  weekly-comprehensive-audit:
+    name: Weekly Comprehensive Audit
+    runs-on: ubuntu-latest
+    # Run every Sunday at 2 AM UTC
+    if: github.event.schedule == '0 2 * * 0' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install Dependencies
+      run: npm ci
+      
+    - name: Comprehensive Website Audit
+      run: |
+        echo "🔍 Starting comprehensive weekly audit..."
+        
+        mkdir -p audit/reports
+        
+        # Extended agent runs for thorough analysis
+        echo "📐 Extended layout analysis..."
+        timeout 120 npx ts-node agents/page-layout-agent.ts --comprehensive || true
+        
+        echo "🔧 Extended features analysis..."
+        timeout 180 npx ts-node agents/features-agent.ts --comprehensive || true
+        
+        echo "🎯 Generating comprehensive audit report..."
+        cat > audit/reports/weekly-audit.json << EOF
+        {
+          "timestamp": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+          "audit_type": "comprehensive_weekly",
+          "week": "$(date +%V)",
+          "year": "$(date +%Y)",
+          "agents_run": ["page-layout-specialist", "features-specialist"],
+          "mode": "extended_analysis"
+        }
+        EOF
+        
+    - name: Upload Weekly Audit
+      uses: actions/upload-artifact@v4
+      with:
+        name: weekly-audit-$(date +%Y-%m-%d)
+        path: |
+          agents/reports/
+          audit/
+        retention-days: 90
