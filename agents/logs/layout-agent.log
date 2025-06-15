@@ -765,3 +765,795 @@
 [2025-06-15T04:22:51.977Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
 [2025-06-15T04:22:51.979Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
 [2025-06-15T04:22:51.980Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:23:22.012Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:23:22.036Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:23:22.039Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:23:22.041Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:23:22.043Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:23:22.045Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:23:22.047Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:23:22.049Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:23:22.051Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:23:52.079Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:23:52.111Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:23:52.113Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:23:52.115Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:23:52.117Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:23:52.119Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:23:52.121Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:23:52.123Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:23:52.125Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:24:22.157Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:24:22.190Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:24:22.192Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:24:22.195Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:24:22.197Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:24:22.198Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:24:22.200Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:24:22.202Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:24:22.203Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:24:52.236Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:24:52.269Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:24:52.272Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:24:52.274Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:24:52.276Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:24:52.277Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:24:52.279Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:24:52.281Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:24:52.283Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:25:22.316Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:25:22.348Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:25:22.352Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:25:22.354Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:25:22.356Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:25:22.358Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:25:22.360Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:25:22.362Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:25:22.363Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:25:52.397Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:25:52.434Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:25:52.437Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:25:52.440Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:25:52.441Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:25:52.443Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:25:52.445Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:25:52.446Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:25:52.448Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:26:22.481Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:26:22.513Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:26:22.516Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:26:22.518Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:26:22.520Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:26:22.522Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:26:22.524Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:26:22.526Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:26:22.527Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:26:52.561Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:26:52.592Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:26:52.595Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:26:52.596Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:26:52.598Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:26:52.600Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:26:52.602Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:26:52.604Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:26:52.605Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:27:22.636Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:27:22.674Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:27:22.680Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:27:22.682Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:27:22.684Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:27:22.686Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:27:22.687Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:27:22.689Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:27:22.691Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:27:52.724Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:27:52.754Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:27:52.757Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:27:52.759Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:27:52.761Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:27:52.763Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:27:52.765Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:27:52.766Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:27:52.768Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:28:22.800Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:28:22.834Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:28:22.837Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:28:22.839Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:28:22.841Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:28:22.842Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:28:22.844Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:28:22.846Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:28:22.847Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:28:52.879Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:28:52.908Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:28:52.912Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:28:52.914Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:28:52.915Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:28:52.917Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:28:52.919Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:28:52.920Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:28:52.926Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:29:22.957Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:29:22.978Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:29:22.981Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:29:22.983Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:29:22.985Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:29:22.987Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:29:22.989Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:29:22.990Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:29:22.992Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:29:53.023Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:29:53.054Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:29:53.058Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:29:53.060Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:29:53.061Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:29:53.063Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:29:53.065Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:29:53.067Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:29:53.069Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:30:23.101Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:30:23.131Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:30:23.134Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:30:23.136Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:30:23.138Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:30:23.140Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:30:23.142Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:30:23.143Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:30:23.145Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:30:53.177Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:30:53.211Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:30:53.214Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:30:53.216Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:30:53.218Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:30:53.219Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:30:53.221Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:30:53.223Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:30:53.225Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:31:23.257Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:31:23.293Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:31:23.298Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:31:23.300Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:31:23.302Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:31:23.303Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:31:23.305Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:31:23.307Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:31:23.309Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:31:53.341Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:31:53.374Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:31:53.377Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:31:53.379Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:31:53.380Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:31:53.382Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:31:53.384Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:31:53.386Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:31:53.387Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:32:23.419Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:32:23.454Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:32:23.457Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:32:23.459Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:32:23.461Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:32:23.463Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:32:23.465Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:32:23.466Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:32:23.468Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:32:53.500Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:32:53.536Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:32:53.539Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:32:53.541Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:32:53.543Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:32:53.545Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:32:53.547Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:32:53.548Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:32:53.550Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:33:23.584Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:33:23.615Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:33:23.617Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:33:23.619Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:33:23.621Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:33:23.623Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:33:23.625Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:33:23.629Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:33:23.630Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:33:53.671Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:33:53.700Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:33:53.705Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:33:53.708Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:33:53.710Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:33:53.712Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:33:53.714Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:33:53.716Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:33:53.718Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:34:23.769Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:34:23.804Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:34:23.807Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:34:23.809Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:34:23.811Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:34:23.813Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:34:23.815Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:34:23.816Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:34:23.818Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:34:53.844Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:34:53.872Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:34:53.875Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:34:53.877Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:34:53.878Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:34:53.880Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:34:53.881Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:34:53.883Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:34:53.885Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:35:23.902Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:35:23.938Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:35:23.943Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:35:23.946Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:35:23.948Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:35:23.950Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:35:23.951Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:35:23.953Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:35:23.955Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:35:53.987Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:35:54.019Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:35:54.022Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:35:54.024Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:35:54.026Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:35:54.027Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:35:54.029Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:35:54.031Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:35:54.033Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:36:24.063Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:36:24.092Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:36:24.095Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:36:24.097Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:36:24.099Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:36:24.101Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:36:24.102Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:36:24.104Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:36:24.106Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:36:54.137Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:36:54.170Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:36:54.173Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:36:54.175Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:36:54.177Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:36:54.178Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:36:54.180Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:36:54.182Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:36:54.184Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:37:24.216Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:37:24.247Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:37:24.250Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:37:24.252Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:37:24.253Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:37:24.255Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:37:24.256Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:37:24.258Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:37:24.260Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:37:54.291Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:37:54.320Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:37:54.322Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:37:54.324Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:37:54.326Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:37:54.327Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:37:54.329Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:37:54.331Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:37:54.333Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:38:24.364Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:38:24.391Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:38:24.394Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:38:24.397Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:38:24.398Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:38:24.400Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:38:24.402Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:38:24.403Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:38:24.405Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:38:54.436Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:38:54.471Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:38:54.477Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:38:54.481Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:38:54.484Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:38:54.486Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:38:54.488Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:38:54.489Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:38:54.491Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:39:24.523Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:39:24.559Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:39:24.564Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:39:24.566Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:39:24.568Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:39:24.570Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:39:24.572Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:39:24.575Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:39:24.577Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:39:54.610Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:39:54.641Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:39:54.644Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:39:54.646Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:39:54.648Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:39:54.650Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:39:54.652Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:39:54.654Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:39:54.656Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:40:24.688Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:40:24.714Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:40:24.717Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:40:24.719Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:40:24.721Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:40:24.723Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:40:24.724Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:40:24.726Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:40:24.727Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:40:54.747Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:40:54.777Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:40:54.780Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:40:54.783Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:40:54.785Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:40:54.788Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:40:54.790Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:40:54.792Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:40:54.795Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:41:24.829Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:41:24.860Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:41:24.863Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:41:24.865Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:41:24.867Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:41:24.868Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:41:24.870Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:41:24.872Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:41:24.873Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:41:54.916Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:41:54.954Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:41:54.958Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:41:54.959Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:41:54.961Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:41:54.963Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:41:54.965Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:41:54.966Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:41:54.968Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:42:25.000Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:42:25.032Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:42:25.035Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:42:25.038Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:42:25.040Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:42:25.042Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:42:25.044Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:42:25.045Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:42:25.047Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:42:55.066Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:42:55.100Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:42:55.104Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:42:55.106Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:42:55.108Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:42:55.110Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:42:55.111Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:42:55.113Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:42:55.115Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:43:25.146Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:43:25.182Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:43:25.186Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:43:25.188Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:43:25.190Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:43:25.192Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:43:25.193Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:43:25.195Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:43:25.197Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:43:55.227Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:43:55.257Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:43:55.260Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:43:55.262Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:43:55.264Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:43:55.266Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:43:55.268Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:43:55.270Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:43:55.271Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:44:25.302Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:44:25.320Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:44:25.323Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:44:25.324Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:44:25.326Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:44:25.328Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:44:25.330Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:44:25.331Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:44:25.333Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:44:55.363Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:44:55.399Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:44:55.401Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:44:55.403Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:44:55.405Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:44:55.406Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:44:55.408Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:44:55.410Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:44:55.411Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:45:25.443Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:45:25.471Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:45:25.474Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:45:25.476Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:45:25.478Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:45:25.479Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:45:25.481Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:45:25.483Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:45:25.485Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:45:55.517Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:45:55.542Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:45:55.545Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:45:55.547Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:45:55.549Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:45:55.551Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:45:55.552Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:45:55.554Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:45:55.555Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:46:25.586Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:46:25.600Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:46:25.603Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:46:25.605Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:46:25.607Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:46:25.609Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:46:25.611Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:46:25.613Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:46:25.615Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:46:55.647Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:46:55.666Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:46:55.669Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:46:55.671Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:46:55.673Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:46:55.675Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:46:55.676Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:46:55.678Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:46:55.680Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:47:25.712Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:47:25.725Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:47:25.728Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:47:25.730Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:47:25.732Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:47:25.735Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:47:25.738Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:47:25.740Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:47:25.742Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:47:55.774Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:47:55.799Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:47:55.802Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:47:55.804Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:47:55.806Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:47:55.808Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:47:55.809Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:47:55.811Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:47:55.813Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:48:25.822Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:48:25.850Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:48:25.854Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:48:25.856Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:48:25.858Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:48:25.860Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:48:25.862Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:48:25.863Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:48:25.865Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:48:55.900Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:48:55.934Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:48:55.938Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:48:55.940Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:48:55.943Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:48:55.945Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:48:55.947Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:48:55.949Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:48:55.951Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:49:25.986Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:49:26.001Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:49:26.005Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:49:26.009Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:49:26.011Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:49:26.014Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:49:26.015Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:49:26.017Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:49:26.019Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:49:56.050Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:49:56.090Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:49:56.098Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:49:56.102Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:49:56.105Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:49:56.108Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:49:56.110Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:49:56.113Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:49:56.115Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:50:26.147Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:50:26.183Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:50:26.189Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:50:26.193Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:50:26.196Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:50:26.201Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:50:26.206Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:50:26.209Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:50:26.211Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:50:56.243Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:50:56.270Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:50:56.272Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:50:56.274Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:50:56.276Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:50:56.278Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:50:56.279Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:50:56.281Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:50:56.283Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:51:26.315Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:51:26.346Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:51:26.349Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:51:26.351Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:51:26.353Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:51:26.355Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:51:26.357Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:51:26.359Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:51:26.360Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:51:56.379Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:51:56.415Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:51:56.418Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:51:56.419Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:51:56.421Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:51:56.423Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:51:56.425Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:51:56.426Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:51:56.428Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:52:26.454Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:52:26.485Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:52:26.488Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:52:26.490Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:52:26.492Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:52:26.493Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:52:26.495Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:52:26.496Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:52:26.498Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:52:56.528Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:52:56.553Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:52:56.556Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:52:56.558Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:52:56.560Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:52:56.562Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:52:56.563Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:52:56.565Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:52:56.566Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:53:26.597Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:53:26.641Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:53:26.648Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:53:26.651Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:53:26.653Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:53:26.656Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:53:26.658Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:53:26.659Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:53:26.661Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:53:56.693Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:53:56.726Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:53:56.730Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:53:56.732Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:53:56.734Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:53:56.735Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:53:56.737Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:53:56.738Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:53:56.744Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:54:26.777Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:54:26.794Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:54:26.798Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:54:26.800Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:54:26.801Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:54:26.803Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:54:26.805Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:54:26.807Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:54:26.809Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:54:56.842Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:54:56.874Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:54:56.878Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:54:56.880Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:54:56.883Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:54:56.884Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:54:56.887Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:54:56.888Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:54:56.890Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:55:26.924Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:55:26.958Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:55:26.960Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:55:26.962Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:55:26.964Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:55:26.966Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:55:26.968Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:55:26.970Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:55:26.972Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:55:57.007Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:55:57.037Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:55:57.041Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:55:57.043Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:55:57.045Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:55:57.046Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:55:57.048Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:55:57.050Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:55:57.052Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:56:27.097Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:56:27.130Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:56:27.134Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:56:27.136Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:56:27.138Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:56:27.139Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:56:27.141Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:56:27.143Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:56:27.146Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:56:57.177Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:56:57.209Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:56:57.212Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:56:57.214Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:56:57.216Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:56:57.218Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:56:57.220Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:56:57.222Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:56:57.223Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:57:27.254Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:57:27.286Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:57:27.289Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:57:27.291Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:57:27.293Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:57:27.295Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:57:27.296Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:57:27.298Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:57:27.300Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:57:57.329Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:57:57.365Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:57:57.369Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:57:57.370Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:57:57.372Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:57:57.374Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:57:57.375Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:57:57.377Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:57:57.379Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:58:27.409Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:58:27.444Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:58:27.449Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:58:27.452Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:58:27.454Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:58:27.456Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:58:27.458Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:58:27.460Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:58:27.462Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:58:57.490Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:58:57.516Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:58:57.518Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:58:57.520Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:58:57.522Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:58:57.524Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:58:57.526Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:58:57.528Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:58:57.529Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:59:27.561Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:59:27.599Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:59:27.603Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:59:27.605Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:59:27.607Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:59:27.609Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:59:27.612Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:59:27.613Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:59:27.615Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T04:59:57.646Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T04:59:57.682Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T04:59:57.688Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T04:59:57.691Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T04:59:57.694Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T04:59:57.697Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T04:59:57.700Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T04:59:57.702Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T04:59:57.704Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:00:27.735Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:00:27.763Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:00:27.766Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:00:27.769Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:00:27.772Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:00:27.775Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:00:27.777Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:00:27.780Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:00:27.782Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:00:57.802Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:00:57.832Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:00:57.836Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:00:57.837Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:00:57.839Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:00:57.842Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:00:57.843Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:00:57.845Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:00:57.847Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:01:27.879Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:01:27.909Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:01:27.912Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:01:27.914Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:01:27.915Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:01:27.918Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:01:27.920Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:01:27.922Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:01:27.924Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:01:57.957Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:01:57.992Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:01:57.995Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:01:57.997Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:01:57.999Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:01:58.001Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:01:58.003Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:01:58.004Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:01:58.006Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:02:28.049Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:02:28.086Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:02:28.091Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:02:28.094Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:02:28.097Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:02:28.099Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:02:28.101Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:02:28.103Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:02:28.105Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:02:58.144Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:02:58.179Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:02:58.182Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:02:58.184Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:02:58.186Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:02:58.188Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:02:58.189Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:02:58.191Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:02:58.192Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:03:28.245Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:03:28.278Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:03:28.282Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:03:28.285Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:03:28.287Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:03:28.288Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:03:28.290Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:03:28.292Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:03:28.294Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:03:58.346Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:03:58.381Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:03:58.384Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:03:58.386Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:03:58.388Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:03:58.390Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:03:58.392Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:03:58.393Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:03:58.395Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:04:28.428Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:04:28.460Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:04:28.464Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:04:28.466Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:04:28.468Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:04:28.470Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:04:28.472Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:04:28.473Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:04:28.475Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:04:58.507Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:04:58.533Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:04:58.536Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:04:58.537Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:04:58.539Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:04:58.541Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:04:58.542Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:04:58.544Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:04:58.545Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:05:28.576Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:05:28.606Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:05:28.609Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:05:28.610Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:05:28.612Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:05:28.614Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:05:28.615Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:05:28.617Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:05:28.619Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:05:58.642Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:05:58.669Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:05:58.672Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:05:58.674Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:05:58.676Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:05:58.678Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:05:58.680Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:05:58.682Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:05:58.684Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:06:28.716Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:06:28.757Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:06:28.764Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:06:28.768Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:06:28.770Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:06:28.772Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:06:28.774Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:06:28.777Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:06:28.779Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
+[2025-06-15T05:06:58.808Z] [page-layout-specialist] Performing layout analysis...
+[2025-06-15T05:06:58.830Z] [page-layout-specialist] Report saved: 66% accuracy, 3 issues
+[2025-06-15T05:06:58.834Z] [page-layout-specialist] 🚨 ACTION REQUIRED - Accuracy: 66%
+[2025-06-15T05:06:58.836Z] [page-layout-specialist]   ❌ Missing "Pulp & Paper" industry in industries section
+[2025-06-15T05:06:58.838Z] [page-layout-specialist]   ❌ Header still has "HAI LOGO" placeholder
+[2025-06-15T05:06:58.840Z] [page-layout-specialist]   ❌ Header using emoji icons instead of professional SVG icons
+[2025-06-15T05:06:58.841Z] [page-layout-specialist]   💡 Add "Pulp & Paper" to industries array in page.tsx
+[2025-06-15T05:06:58.843Z] [page-layout-specialist]   💡 Replace HAI LOGO placeholder with actual logo component
+[2025-06-15T05:06:58.845Z] [page-layout-specialist]   💡 Replace emoji icons with professional SVG icon library
