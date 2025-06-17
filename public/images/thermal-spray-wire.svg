@@ -1,0 +1,40 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f3f4f6"/>
+  
+  <!-- Wire spool -->
+  <g transform="translate(200, 140)">
+    <!-- Spool sides -->
+    <ellipse cx="0" cy="0" rx="80" ry="15" fill="#6b7280"/>
+    <rect x="-80" y="-15" width="160" height="30" fill="#4b5563"/>
+    <ellipse cx="0" cy="30" rx="80" ry="15" fill="#6b7280"/>
+    
+    <!-- Center hole -->
+    <circle cx="0" cy="15" r="20" fill="#374151"/>
+    
+    <!-- Wire wrapping -->
+    <path d="M -60 0 Q -40 10, -20 0 T 20 0 T 60 0" 
+          stroke="#1e3a8a" stroke-width="3" fill="none" opacity="0.8"/>
+    <path d="M -60 5 Q -40 15, -20 5 T 20 5 T 60 5" 
+          stroke="#3b82f6" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M -60 10 Q -40 20, -20 10 T 20 10 T 60 10" 
+          stroke="#1e40af" stroke-width="3" fill="none" opacity="0.8"/>
+    <path d="M -60 15 Q -40 25, -20 15 T 20 15 T 60 15" 
+          stroke="#1e3a8a" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M -60 20 Q -40 30, -20 20 T 20 20 T 60 20" 
+          stroke="#3b82f6" stroke-width="3" fill="none" opacity="0.8"/>
+    
+    <!-- Wire end -->
+    <path d="M 80 15 L 100 15 L 110 20" stroke="#1e3a8a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">
+    Thermal Spray Wire
+  </text>
+  
+  <!-- HAI branding -->
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">
+    HAI Industries
+  </text>
+</svg>

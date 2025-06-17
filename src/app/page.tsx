@@ -1,170 +1,374 @@
+'use client'
+
 /**
  * Homepage - HAI Website Clone
- * 
+ *
  * This is the main homepage that replicates haiinc.com exactly
  * Sections included:
  * - Hero section with main value proposition
- * - Company introduction paragraph  
+ * - Company introduction paragraph
  * - Three-column product showcase (Powders, Wires, Equipment)
  * - Industries served grid layout
  * - Call-to-action section
  * All content matches the original HAI website
  */
 
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image'
+import Link from 'next/link'
+import ProductIcon from '@/components/ProductIcon'
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
-      {/* Hero Section - Main value proposition */}
-      <section className="bg-gradient-to-r from-hai-primary to-hai-navy text-white py-20">
-        <div className="max-w-container mx-auto px-6 text-center">
-          <h1 className="text-5xl font-bold mb-6">
-            Make it Better, Coat it™
-          </h1>
-          <p className="text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-            Leading materials engineering solutions provider for the thermal spraying industry
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-hai-orange hover:bg-orange-600 text-white px-8 py-3 rounded-md font-semibold text-lg transition-colors">
-              Get a Quote
-            </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-hai-primary px-8 py-3 rounded-md font-semibold text-lg transition-colors">
-              Learn More
-            </button>
+    <div className="min-h-screen bg-white">
+      {/* Hero Section - Carousel */}
+      <section className="relative h-[500px] overflow-hidden">
+        <div className="absolute inset-0">
+          {/* Carousel slides - simplified version */}
+          <div className="relative h-full bg-gray-900">
+            {/* Background image */}
+            <Image
+              src="/images/golden-gate-bridge.jpg"
+              alt="Golden Gate Bridge"
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50"></div>
+            
+            <div className="relative h-full flex items-center justify-center">
+              <div className="text-center px-4">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 max-w-4xl mx-auto">
+                  Thermal Spray Coatings improve our world for the better.
+                </h1>
+                <p className="text-xl md:text-2xl text-hai-yellow mb-8 italic">
+                  Make it Better, Coat it™
+                </p>
+                <div className="mt-8">
+                  <Image
+                    src="/images/hai-logo.png"
+                    alt="HAI Inc."
+                    width={200}
+                    height={80}
+                    className="mx-auto filter brightness-0 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Carousel dots */}
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+          {[1,2,3,4,5,6,7].map((dot) => (
+            <button
+              key={dot}
+              className={`w-2 h-2 rounded-full ${dot === 7 ? 'bg-hai-yellow' : 'bg-white/50'}`}
+              aria-label={`Slide ${dot}`}
+            />
+          ))}
+        </div>
+      </section>
+
+      {/* Welcome to HAI Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                Welcome to <span className="text-hai-primary border-b-2 border-hai-primary">HAI</span>
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                HAI is a leading materials engineering solutions provider for the{' '}
+                <Link href="#" className="text-hai-primary hover:underline">
+                  thermal spraying industry
+                </Link>{' '}
+                providing the highest quality Carbide, Pure Metal, Metal Alloy, Superalloy, Ceramic, and
+                Dissolving <Link href="#" className="text-hai-primary hover:underline">Metal Powders</Link>,
+                along with a variety of solid and specialty formulated custom
+                cored wires. HAI specializes on engineering, design & integration of Turnkey Equipment
+                Cells, for HVOF, Plasma, Arc Spray, Cold Spray, Additive Manufacturing, Laser, PTA and PM
+                processes.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Our materials are used in nearly every product throughout the world. Our expertise in
+                material solutions has created coatings used in household items to space age
+                applications, allow us to transform your products into reality.
+              </p>
+              <Link
+                href="#"
+                className="inline-block bg-hai-dark-blue text-white px-6 py-3 font-medium hover:bg-hai-navy transition-colors"
+              >
+                Request More →
+              </Link>
+            </div>
+            <div className="flex gap-4 justify-center">
+              <div className="w-48 h-48 rounded-full overflow-hidden">
+                <Image
+                  src="/images/equipment-systems.png"
+                  alt="Thermal spray process"
+                  width={192}
+                  height={192}
+                  className="object-cover"
+                />
+              </div>
+              <div className="w-48 h-48 rounded-full overflow-hidden">
+                <Image
+                  src="/images/equipment-systems.png"
+                  alt="Thermal spray equipment"
+                  width={192}
+                  height={192}
+                  className="object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Company Introduction */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-container mx-auto px-6 text-center">
-          <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
-            Thermal Spray Coatings improve our world for the better. Since 1979, HAI has partnered with customers 
-            to provide the best quality products, the best service, and the best solutions for our customers' 
-            most demanding coating needs. Our mission is to deliver materials engineering solutions that exceed expectations.
-          </p>
-        </div>
-      </section>
-
-      {/* Product Showcase - Three Columns */}
-      <section className="py-20">
-        <div className="max-w-container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            Our Products & Services
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Thermal Spray Powders */}
-            <div className="bg-white rounded-card shadow-card hover:shadow-card-hover transition-card group cursor-pointer">
-              <div className="p-8 text-center">
-                {/* Placeholder for product image - will be replaced with actual HAI image */}
-                <div className="w-full h-48 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg mb-6 flex items-center justify-center">
-                  <div className="text-hai-primary text-lg font-semibold">Thermal Spray Powders</div>
+      {/* Product Showcase - Dark overlay cards */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Thermal Spray Powder */}
+            <Link href="/products/thermal-spray-powder" className="group relative block overflow-hidden">
+              <div className="relative h-64">
+                <Image
+                  src="/images/thermal-spray-powder.png"
+                  alt="Thermal Spray Powder"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-hai-dark-blue bg-opacity-80 flex items-end p-6 transition-opacity group-hover:bg-opacity-90">
+                  <h3 className="text-xl font-semibold text-white">
+                    Thermal Spray Powder
+                  </h3>
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-900">Thermal Spray Powder</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  High-quality thermal spray powders engineered for superior coating performance 
-                  across aerospace, automotive, and industrial applications.
-                </p>
-                <Link 
-                  href="/products/thermal-spray-powder"
-                  className="inline-block bg-hai-primary hover:bg-hai-navy text-white px-6 py-2 rounded-md font-medium transition-colors"
-                >
-                  Learn More
-                </Link>
               </div>
-            </div>
+            </Link>
 
-            {/* Thermal Spray Wires */}
-            <div className="bg-white rounded-card shadow-card hover:shadow-card-hover transition-card group cursor-pointer">
-              <div className="p-8 text-center">
-                {/* Placeholder for product image - will be replaced with actual HAI image */}
-                <div className="w-full h-48 bg-gradient-to-br from-green-100 to-green-200 rounded-lg mb-6 flex items-center justify-center">
-                  <div className="text-hai-green text-lg font-semibold">Thermal Spray Wires</div>
+            {/* Thermal Spray Wire */}
+            <Link href="/products/thermal-spray-wire" className="group relative block overflow-hidden">
+              <div className="relative h-64">
+                <Image
+                  src="/images/thermal-spray-wire.png"
+                  alt="Thermal Spray Wire"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-hai-dark-blue bg-opacity-80 flex items-end p-6 transition-opacity group-hover:bg-opacity-90">
+                  <h3 className="text-xl font-semibold text-white">
+                    Thermal Spray Wire
+                  </h3>
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-900">Thermal Spray Wire</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  Precision-manufactured thermal spray wires designed for consistent, 
-                  high-performance coating applications in demanding environments.
-                </p>
-                <Link 
-                  href="/products/thermal-spray-wire"
-                  className="inline-block bg-hai-primary hover:bg-hai-navy text-white px-6 py-2 rounded-md font-medium transition-colors"
-                >
-                  Learn More
-                </Link>
               </div>
-            </div>
+            </Link>
 
             {/* Equipment & Systems */}
-            <div className="bg-white rounded-card shadow-card hover:shadow-card-hover transition-card group cursor-pointer">
-              <div className="p-8 text-center">
-                {/* Placeholder for product image - will be replaced with actual HAI image */}
-                <div className="w-full h-48 bg-gradient-to-br from-orange-100 to-orange-200 rounded-lg mb-6 flex items-center justify-center">
-                  <div className="text-hai-orange text-lg font-semibold">Equipment & Systems</div>
+            <Link href="/products/equipment-systems" className="group relative block overflow-hidden">
+              <div className="relative h-64">
+                <Image
+                  src="/images/equipment-systems.png"
+                  alt="Thermal Spray Equipment & Systems"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-hai-dark-blue bg-opacity-80 flex items-end p-6 transition-opacity group-hover:bg-opacity-90">
+                  <h3 className="text-xl font-semibold text-white">
+                    Thermal Spray Equipment & Systems
+                  </h3>
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-900">Equipment & Systems</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  Complete thermal spray equipment and systems, including spare parts, 
-                  designed for reliability and optimal coating results.
-                </p>
-                <Link 
-                  href="/products/equipment-systems"
-                  className="inline-block bg-hai-primary hover:bg-hai-navy text-white px-6 py-2 rounded-md font-medium transition-colors"
-                >
-                  Learn More
-                </Link>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Industries Served Grid */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            Industries We Serve
+      {/* Industries Served */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">
+            <span className="text-gray-900">Industries</span> We Serve
           </h2>
-          
+          <p className="text-center text-gray-600 max-w-4xl mx-auto mb-12">
+            Our products are used within the Aerospace, Automotive, Biomedical, Down Hole Drilling, Electronics, Energy, Oil & Gas, Pump, Pulp & Paper,
+            Printing, Semiconductor, Steel and Valve industries for enhancing your products, extending your product life, increasing your product
+            performance, and reducing your downtime and maintenance costs.
+          </p>
+
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
-              'Aerospace', 'Automotive', 'Biomedical', 'Drilling', 'Electronics',
-              'Energy', 'Oil & Gas', 'Semiconductor', 'Steel'
+              'Aerospace',
+              'Automotive',
+              'Biomedical',
+              'Drilling',
+              'Electronics',
+              'Energy',
+              'Oil & Gas',
+              'Pulp & Paper',
+              'Semiconductor',
+              'Steel',
             ].map((industry) => (
-              <div key={industry} className="bg-white rounded-lg p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-                <div className="w-16 h-16 bg-hai-light-blue rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">{industry.charAt(0)}</span>
+              <div key={industry} className="text-center">
+                <div className="bg-white p-8 hover:shadow-lg transition-shadow cursor-pointer">
+                  <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center text-hai-primary">
+                    <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <p className="text-sm font-semibold text-gray-900">{industry}</p>
                 </div>
-                <h3 className="font-semibold text-gray-900">{industry}</h3>
               </div>
             ))}
           </div>
+          
+          <div className="text-center mt-12">
+            <Link
+              href="/contact"
+              className="bg-hai-dark-blue text-white px-8 py-3 font-medium hover:bg-hai-navy transition-colors inline-block"
+            >
+              Discover How We Can Help
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* Call-to-Action Section */}
-      <section className="py-20 bg-hai-primary text-white">
-        <div className="max-w-container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready to Improve Your Coating Solutions?
+      {/* Why Companies Choose HAI */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">
+            Why Companies Choose <span className="text-hai-primary">HAI</span>
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Contact our materials engineering experts to discuss your specific thermal spray coating needs. 
-            We're here to help you make it better.
+          <p className="text-center text-gray-600 max-w-4xl mx-auto mb-12">
+            Customer service and technical support drives our company. We pride ourselves on our ability to communicate with customers when you
+            need us the most. Our technical industry has few options, we have the knowledge and the expertise to provide you the solution that you need.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-hai-orange hover:bg-orange-600 text-white px-8 py-3 rounded-md font-semibold text-lg transition-colors">
-              Contact Us Today
-            </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-hai-primary px-8 py-3 rounded-md font-semibold text-lg transition-colors">
-              Download Brochure
-            </button>
+          <div className="max-w-2xl mx-auto">
+            <ul className="space-y-4">
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-hai-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span className="text-gray-700">The Right Product For Your Application</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-hai-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span className="text-gray-700">Exceptional Customer Service</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-hai-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span className="text-gray-700">Expert In-House Technical Support</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-hai-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span className="text-gray-700">Complete Product Line</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-hai-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span className="text-gray-700">Custom Packaging & Delivery</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Groups & Affiliations */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            Groups & <span className="text-hai-primary">Affiliations</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div className="bg-white p-8 text-center">
+              <div className="h-32 flex items-center justify-center mb-4">
+                <div className="text-4xl text-hai-primary font-bold">ITSA</div>
+              </div>
+              <p className="text-gray-600">International Thermal Spray Association</p>
+            </div>
+            <div className="bg-white p-8 text-center">
+              <div className="h-32 flex items-center justify-center mb-4">
+                <div className="text-4xl text-hai-primary font-bold">TSS</div>
+              </div>
+              <p className="text-gray-600">Thermal Spray Society</p>
+            </div>
+            <div className="bg-white p-8 text-center">
+              <div className="h-32 flex items-center justify-center mb-4">
+                <div className="text-3xl text-hai-primary font-bold">Stony Brook<br/>University</div>
+              </div>
+              <p className="text-gray-600">Stony Brook University Alumni</p>
+            </div>
+          </div>
+
+          {/* Published Papers Section */}
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            Published Papers, <span className="text-hai-primary">Articles and Useful Literature</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="h-48 bg-gray-200"></div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">
+                  Eliminating Hexavalent Cr Emissions in Thermal Spray
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  International Thermal Spray Conference Proceedings. This study details efforts to develop
+                  the next generation of high...
+                </p>
+                <Link
+                  href="/contact"
+                  className="text-hai-primary hover:text-hai-navy font-medium"
+                >
+                  Request Information
+                </Link>
+              </div>
+            </div>
+            <div className="bg-white overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="h-48 bg-gray-200"></div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">
+                  Substituting Thermal Spraying for Electroplating
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Waste Reduction - Global Climate Notes. Overview the role Thermal Spray plays in
+                  reducing toxic plating processes.
+                </p>
+                <Link
+                  href="/contact"
+                  className="text-hai-primary hover:text-hai-navy font-medium"
+                >
+                  Request Information
+                </Link>
+              </div>
+            </div>
+            <div className="bg-white p-6">
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-lg font-semibold mb-2 text-gray-900">
+                    NEW THERMAL SPRAY (SiAl) POWDER TECHNOLOGY WILL ADVANCE ROTATABLE SPUTTER TARGET COATINGS
+                  </h3>
+                  <p className="text-gray-600 text-sm">
+                    New Aluminum clad Si particles that replace blended mixtures of SiAl to form denser and more homogenous coating structures used for rotatable sputter targets.
+                  </p>
+                </div>
+                <div className="border-t pt-6">
+                  <h3 className="text-lg font-semibold mb-2 text-gray-900">
+                    IMPROVING SURFACES WITH HVOF SPRAYED COATINGS
+                  </h3>
+                  <p className="text-gray-600 text-sm">
+                    High Velocity Oxy-fuel spraying is rapidly emerging as an efficient way to produce high quality ceramic coatings.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </div>
-  );
+  )
 }

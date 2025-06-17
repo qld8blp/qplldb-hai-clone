@@ -1,0 +1,32 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="80" fill="white"/>
+  
+  <!-- HAI Text -->
+  <g>
+    <!-- Letter H -->
+    <path d="M25 20 L25 60 M25 40 L45 40 M45 20 L45 60" 
+          stroke="#1e3a8a" 
+          stroke-width="6" 
+          fill="none" 
+          stroke-linecap="round"/>
+    
+    <!-- Letter A -->
+    <path d="M65 60 L80 20 L95 60 M70 45 L90 45" 
+          stroke="#1e3a8a" 
+          stroke-width="6" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Letter I -->
+    <path d="M115 20 L135 20 M125 20 L125 60 M115 60 L135 60" 
+          stroke="#1e3a8a" 
+          stroke-width="6" 
+          fill="none" 
+          stroke-linecap="round"/>
+  </g>
+  
+  <!-- Accent dot -->
+  <circle cx="160" cy="50" r="8" fill="#ea580c"/>
+</svg>

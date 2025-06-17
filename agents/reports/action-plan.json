@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-06-15T08:12:33.671Z",
+  "totalSuggestions": 0,
+  "priorityBreakdown": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "estimatedTotalImpact": 0,
+  "quickWins": [],
+  "suggestions": []
+}

@@ -58,8 +58,27 @@ class FeaturesAgent {
 
   private async testServerConnectivity(): Promise<boolean> {
     try {
-      const { stdout } = await execAsync('curl -s -o /dev/null -w "%{http_code}" http://localhost:3000');
-      return stdout.trim() === '200';
+      // More robust server testing with multiple checks
+      const testCommands = [
+        'curl -s -o /dev/null -w "%{http_code}" http://localhost:3000',
+        'curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:3000',
+        'netstat -tlnp 2>/dev/null | grep :3000 || ss -tlnp 2>/dev/null | grep :3000 || lsof -i :3000 2>/dev/null'
+      ];
+      
+      for (const cmd of testCommands) {
+        try {
+          const { stdout } = await execAsync(cmd);
+          if (stdout.trim() === '200' || stdout.includes(':3000')) {
+            this.log(`Server detected: ${cmd}`);
+            return true;
+          }
+        } catch (cmdError) {
+          // Continue to next test
+        }
+      }
+      
+      this.log('Server connectivity: No active server detected on port 3000');
+      return false;
     } catch (error) {
       this.log(`Server connectivity test failed: ${error}`);
       return false;

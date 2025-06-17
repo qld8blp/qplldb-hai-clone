@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# logs
+*.log
+dev.log
+dev2.log
+dev3.log
+dev4.log
+agents/logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary test files
+TEST_CURSOR_AGENT.md
+CURSOR_AGENT_START.md
+agent-response.md

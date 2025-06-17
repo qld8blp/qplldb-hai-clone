@@ -1,0 +1,47 @@
+# Cursor AI Rules for HAI Project
+
+## Project Context
+This is a Next.js 14+ project using TypeScript, Tailwind CSS, and the App Router.
+We're building a clone of haiinc.com with modern web technologies.
+
+## Code Style Preferences
+- Use functional components with TypeScript
+- Prefer const arrow functions for components
+- Use Tailwind CSS classes for styling (no inline styles)
+- Follow the existing HAI brand colors defined in tailwind.config.ts
+- Keep components small and focused on a single responsibility
+
+## Import Conventions
+- Use absolute imports with @ alias (e.g., @/components/Header)
+- Group imports: React first, then external libs, then internal imports
+- Use named exports for components
+
+## TypeScript Guidelines
+- Always define proper types for props
+- Avoid using 'any' type
+- Use interfaces for object shapes
+- Prefer type inference where possible
+
+## Component Patterns
+- Use semantic HTML elements
+- Implement proper accessibility (ARIA labels, alt text)
+- Make components responsive by default
+- Follow the existing component structure in the codebase
+
+## Performance Considerations
+- Use Next.js Image component for all images
+- Implement lazy loading for heavy components
+- Use dynamic imports for route-based code splitting
+- Optimize bundle size by avoiding large dependencies
+
+## Testing Approach
+- Write tests for critical business logic
+- Use React Testing Library for component tests
+- Focus on user interactions rather than implementation details
+
+## AI Assistant Behavior
+- Always check existing code patterns before suggesting new ones
+- Prefer modifying existing components over creating new ones
+- Suggest performance optimizations when relevant
+- Provide TypeScript types for all new code
+- Follow the HAI project's agent-based development approach

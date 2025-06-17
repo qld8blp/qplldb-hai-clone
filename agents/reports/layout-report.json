@@ -1,15 +1,7 @@
 {
-  "timestamp": "2025-06-15T05:06:58.827Z",
-  "accuracyScore": 66,
-  "issues": [
-    "Missing \"Pulp & Paper\" industry in industries section",
-    "Header still has \"HAI LOGO\" placeholder",
-    "Header using emoji icons instead of professional SVG icons"
-  ],
-  "improvements": [
-    "Add \"Pulp & Paper\" to industries array in page.tsx",
-    "Replace HAI LOGO placeholder with actual logo component",
-    "Replace emoji icons with professional SVG icon library"
-  ],
+  "timestamp": "2025-06-15T08:17:58.853Z",
+  "accuracyScore": 78,
+  "issues": [],
+  "improvements": [],
   "status": "action_required"
 }

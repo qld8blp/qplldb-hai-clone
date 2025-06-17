@@ -16,6 +16,8 @@ const config: Config = {
           'light-blue': '#3b82f6',
           orange: '#ea580c',
           green: '#16a34a',
+          yellow: '#fbbf24',
+          'dark-blue': '#1e3a8a',
         },
         // Refined gray palette matching HAI design
         gray: {
